@@ -8,7 +8,7 @@ public class averageOfThree {
         int b = sc.nextInt();
         System.out.println("Enter third number");
         int c = sc.nextInt();
-        double average = (a+b+c)/3;
+        float average = (float)(a+b+c)/3;
         System.out.println(average);
     }
 }
